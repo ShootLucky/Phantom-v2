@@ -161,8 +161,8 @@ void CMenu::DrawMenu()
 		draw_list->AddText(ImVec2(p.x + 60, p.y + 33), IM_COL32(5, 5, 5, 255), "DEVELOPED BY");
 		draw_list->AddText(ImVec2(p.x + 61, p.y + 32), IM_COL32(255, 255, 255, 100), "DEVELOPED BY");
 		float dev_width = CalcTextSize("DEVELOPED BY").x;
-		draw_list->AddText(ImVec2(p.x + 60 + dev_width + 5, p.y + 33), IM_COL32(5, 5, 5, 255), "SHOOT & VOID");
-		draw_list->AddText(ImVec2(p.x + 61 + dev_width + 4, p.y + 32), accent_color, "SHOOT & VOID");
+		draw_list->AddText(ImVec2(p.x + 60 + dev_width + 5, p.y + 33), IM_COL32(5, 5, 5, 255), "SHOOT & STAR.K");
+		draw_list->AddText(ImVec2(p.x + 61 + dev_width + 4, p.y + 32), accent_color, "SHOOT & STAR.K");
 
 		// ── Tabs ─────────────────────────────────────────────────────────────
 		SetCursorPosX(430);
