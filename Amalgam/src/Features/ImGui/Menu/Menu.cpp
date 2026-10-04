@@ -157,7 +157,7 @@ void CMenu::DrawMenu()
 			PopFont();
 		}
 
-		// ── Subtítulo "DEVELOPED BY SHOOT & VOID" ───────────────────────────
+		// ── Subtítulo "DEVELOPED BY SHOOT & STARK" ───────────────────────────
 		draw_list->AddText(ImVec2(p.x + 60, p.y + 33), IM_COL32(5, 5, 5, 255), "DEVELOPED BY");
 		draw_list->AddText(ImVec2(p.x + 61, p.y + 32), IM_COL32(255, 255, 255, 100), "DEVELOPED BY");
 		float dev_width = CalcTextSize("DEVELOPED BY").x;
